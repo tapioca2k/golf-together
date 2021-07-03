@@ -4,12 +4,13 @@ import sys
 import time
 import uuid
 import webbrowser
+from typing import List
 from ast import literal_eval
 from copy import deepcopy
 from socket import gethostbyname, gethostname
 from threading import Thread
 from tkinter import Tk, Frame, Text, NSEW, DISABLED, Label, EW, Button, GROOVE, CENTER, W, E, IntVar, Scrollbar, WORD, Entry, END, StringVar, NORMAL, Menu, Canvas, HIDDEN, Listbox, \
-    colorchooser, messagebox
+    colorchooser, messagebox, PhotoImage
 from tkinter.ttk import Combobox
 
 from PIL.ImageTk import PhotoImage
@@ -32,7 +33,8 @@ class ClientWindow(Tk):
         self.withdraw()
         self.resizable(False, False)
         self.title("Golf Together")
-        self.iconbitmap('golfTogether.ico')
+        ico = PhotoImage(file='golfTogether.png')
+        self.iconphoto(False, ico)
         self.protocol("WM_DELETE_WINDOW", lambda: self.exit())
 
         self.settings = self.readSettings()
@@ -577,7 +579,7 @@ class ClientWindow(Tk):
         self.buttonEndGame.configure(state=DISABLED)
         self.courseList = []
 
-    def getGames(self) -> list[Game]:
+    def getGames(self) -> List[Game]:
         games = []
         try:
             for filePath in os.listdir(os.getcwd() + '/courses'):

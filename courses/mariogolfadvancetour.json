@@ -1,0 +1,33 @@
+{
+    "game": "Mario Golf Advance Tour",
+    "courses": [
+        {
+            "name": "Marion Course",
+            "parList": [4, 4, 3, 5, 4, 4, 5, 3, 4, 4, 5, 3, 4, 4, 4, 4, 3, 5]
+        },
+		{
+			"name": "Palms Course",
+			"parList": [4, 4, 5, 4, 3, 4, 5, 3, 4, 4, 4, 3, 5, 4, 3, 4, 5, 4]
+		},
+		{
+			"name": "Dunes Course",
+			"parList": [4, 4, 5, 3, 4, 4, 4, 3, 5, 4, 3, 4, 5, 4, 3, 4, 5, 4]
+		},
+		{
+			"name": "Links Course",
+			"parList": [4, 5, 3, 4, 4, 3, 4, 5, 4, 3, 4, 5, 4, 4, 3, 5, 4, 4]
+		},
+		{
+			"name": "Mushroom Course",
+			"parList": [3, 4, 4, 5, 4, 3, 4, 5, 4, 4, 3, 4, 4, 5, 3, 4, 4, 5]
+		},
+		{
+			"name": "Elf's Short Course 9",
+			"parList": [3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		},
+		{
+			"name": "Elf's Short Course 18",
+			"parList": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+		}
+    ]
+}

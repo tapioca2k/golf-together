@@ -1,0 +1,21 @@
+{
+    "game": "Neo Turf Masters",
+    "courses": [
+        {
+            "name": "Germany - Baden National Golf Course",
+            "parList": [4, 4, 3, 5, 4, 4, 5, 3, 4, 5, 3, 4, 4, 3, 4, 4, 5, 4]
+        },
+        {
+            "name": "Japan - Fujiyama Oriental Golf Club",
+            "parList": [4, 4, 3, 4, 5, 4, 4, 5, 3, 4, 5, 4, 4, 3, 4, 5, 3, 4]
+        },
+        {
+            "name": "USA - Grand Canyon Golf Course",
+            "parList": [4, 4, 3, 5, 4, 4, 4, 5, 3, 4, 5, 3, 4, 4, 3, 4, 5, 4]
+        },
+		{
+            "name": "Australia - Blue Lagoon Golf Course",
+            "parList": [4, 4, 3, 5, 4, 4, 5, 3, 4, 4, 4, 3, 4, 4, 5, 3, 4, 5]
+        }
+    ]
+}

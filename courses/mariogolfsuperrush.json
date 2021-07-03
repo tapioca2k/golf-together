@@ -1,0 +1,29 @@
+{
+    "game": "Mario Golf: Super Rush",
+    "courses": [
+        {
+            "name": "Rookie Course",
+            "parList": [4, 4, 3, 4, 4, 5, 4, 3, 5, 4, 4, 5, 3, 4, 4, 3, 4, 5]
+        },
+        {
+            "name": "Bonny Greens",
+            "parList": [4, 3, 5, 4, 4, 3, 4, 4, 5, 4, 4, 5, 4, 3, 4, 3, 4, 5]
+        },
+        {
+            "name": "Ridgerock Lake",
+            "parList": [4, 3, 5, 4, 4, 3, 4, 5, 4, 4, 3, 5, 4, 4, 3, 4, 4, 5]
+        },
+        {
+            "name": "Balmy Dunes",
+            "parList": [4, 3, 4, 5, 4, 3, 4, 4, 5, 4, 3, 5, 4, 4, 3, 4, 4, 5]
+        },
+        {
+            "name": "Wildweather Woods",
+            "parList": [4, 3, 4, 5, 4, 3, 4, 4, 5, 4, 5, 4, 3, 4, 4, 5, 3, 4]
+        },
+        {
+            "name": "Bowser Highlands",
+            "parList": [4, 3, 5, 4, 4, 3, 4, 4, 5, 4, 3, 4, 4, 5, 4, 4, 3, 5]
+        }
+    ]
+}

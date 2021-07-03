@@ -1,4 +1,4 @@
-from tkinter import Toplevel, Frame, Label, EW, GROOVE, DISABLED, W, NSEW, Button, SE, NORMAL, messagebox
+from tkinter import Toplevel, Frame, Label, EW, GROOVE, DISABLED, W, NSEW, Button, SE, NORMAL, messagebox, PhotoImage
 from tkinter.ttk import Combobox
 
 from messageConstants import MESSAGE_SUFFIX, START_GAME
@@ -11,7 +11,8 @@ class CourseSelectWindow:
         self.window.resizable(False, False)
         self.window.title("Join")
         self.window.geometry('+{x}+{y}'.format(x=parent.winfo_x(), y=parent.winfo_y()))
-        self.window.iconbitmap('golfTogether.ico')
+        ico = PhotoImage(file='golfTogether.png')
+        self.window.iconphoto(False, ico)
         self.window.grab_set()
 
         self.courseFrame = Frame(self.window, bd=2, relief=GROOVE)
