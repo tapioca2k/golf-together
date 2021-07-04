@@ -3,7 +3,8 @@ Golf Together is a client/server application designed for multiplayer golf video
 
 # tapioca's fork
 * Add the course .json files from the distributed package not in the repo
-* Fix bugs so it works in python 3.7.3
+* Remove the window icon because it's flaky
+* Change the way type hinting works so it works on python versions below 3.9
 
 System Requirements:
 ```

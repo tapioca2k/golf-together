@@ -33,8 +33,8 @@ class ClientWindow(Tk):
         self.withdraw()
         self.resizable(False, False)
         self.title("Golf Together")
-        ico = PhotoImage(file='golfTogether.png')
-        self.iconphoto(False, ico)
+        #ico = PhotoImage(file='golfTogether.png')
+        #self.iconphoto(False, ico)
         self.protocol("WM_DELETE_WINDOW", lambda: self.exit())
 
         self.settings = self.readSettings()

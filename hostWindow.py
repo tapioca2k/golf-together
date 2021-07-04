@@ -8,8 +8,8 @@ class HostWindow:
         self.window.resizable(False, False)
         self.window.title("Host")
         self.window.geometry('+{x}+{y}'.format(x=parent.winfo_x(), y=parent.winfo_y()))
-        ico = PhotoImage(file='golfTogether.png')
-        self.window.iconphoto(False, ico)
+        #ico = PhotoImage(file='golfTogether.png')
+        #self.window.iconphoto(False, ico)
         self.window.grab_set()
 
         self.entryFrame = Frame(self.window)
